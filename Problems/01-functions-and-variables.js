@@ -28,21 +28,17 @@
 
 /**
  * greet the user!
- @returns {string} should be exactly "Hello!"
+ *@returns {string} should be exactly "Hello!"
  */
-function sayhello (hello) {
-  
-  let hello = 'Hello!';
 
-  return (hello);
-  console.log(hello);
+function hello (hello) {
+  let output =  'Hello!';
+
+  return output;
+
 }
-
-sayhello(hello);
-
-hello
-
-
+let a = hello ()
+ a
 
   // if you want you can declare a string variable first
   // or in this case you can just return the string directly
