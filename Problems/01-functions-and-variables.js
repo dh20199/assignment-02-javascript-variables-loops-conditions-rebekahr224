@@ -32,13 +32,11 @@
  */
 
 function hello (hello) {
-  let output =  'Hello!';
-
+  let output ='Hello!';
   return output;
 
 }
-let a = hello ()
- a
+
 
   // if you want you can declare a string variable first
   // or in this case you can just return the string directly
@@ -55,12 +53,16 @@ let a = hello ()
  * @returns {string} a sentence that uses NAME i nits construction.
  */
 function greeting(name) {
+  let output ='Hello, '+ name + '!';
+  return output;
+
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
   // say goodbye, I might write
   // let parting = "Goodbye, " + name + ".";
   // (but of course, I actually want to say hello.)
 }
+
 
 // Problem 3
 // write a function that takes three parameters and returns an array
@@ -73,10 +75,13 @@ function greeting(name) {
  * @returns {array} 
  */
 function returnArray (first, second, third) {
+  let array = ['Tim', 'Horton', 'Donuts'];
+    
+  return array;
+  
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
 }
-
 
 // Problem 4
 // write a function that, when passed a single argument (an array of 3 or more elements)
