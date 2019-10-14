@@ -101,7 +101,7 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-  return thisArray[0] + ' ' + thisArray[1] + ' was a' + thisArray[2];
+  return thisArray[0] + ' ' + thisArray[1] + ' was a ' + thisArray[2] + '.';
 
 }
 
@@ -117,8 +117,11 @@ function splitArray (thisArray) {
  */
 function subtract(number1, number2) {
   // subtract number2 from number1, and return the result.
-
-
+  let a = getRandomInt(1, 50),
+  b = getRandomInt(1, 50),
+  c = a-b;
+  return c;
+  
 }
 
 
