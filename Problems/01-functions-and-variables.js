@@ -169,7 +169,7 @@ function typeTester (unknown) {
     return 'Sorry, I can\'t do anything with an undefined value.';
   }
   else { 
-    return 'I don\'t know how to use that kind of variable.';
+    return ' I don\'t know how to use that kind of variable.';
   }
 
   
