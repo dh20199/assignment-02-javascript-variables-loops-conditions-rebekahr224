@@ -165,13 +165,13 @@ function typeTester (unknown) {
   else if (typeof(unknown) === 'number') {
     return unknown * unknown;
   } 
-  else if(typeof(unknown) === 'null') {
+  else if(typeof(unknown) === 'undefined') {
     return 'I don\'t know how to use that kind of variable.';
   }
-  else (typeof(unknown) === 'undefined'){ 
-  return 'Sorry, I can\'t do anything with an undefined value.';
+  else if (typeof(unknown) === 'object'){ 
+    return 'Sorry, I can\'t do anything with an undefined value.';
   }
-   
+
   
 }
 
