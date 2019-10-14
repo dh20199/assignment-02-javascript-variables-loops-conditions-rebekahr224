@@ -133,7 +133,13 @@ function carefulSubtract (first, second) {
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
-
+  
+  if (Number.isInteger(first) && Number.isInteger(second)) {
+    return (first - second);
+  } else {
+    return 'I can only subtract numbers.';
+  }
+ 
 }
 
 
