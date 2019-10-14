@@ -65,7 +65,7 @@ function returnObject (first, last, prof) {
  * @returns {string} a sentence constructed from the object parameters 
  */
 function objectToSentence (obj) {
-  let object = obj.firstName + obj.lastName + ' was a ' + obj.profession + '.' ;
+  let object = obj.firstName + ' ' + obj.lastName + ' was a ' + obj.profession + '.' ;
 
   // remember you can refer to object properties using either of 2 methods
   // obj['propertyname']
@@ -109,7 +109,7 @@ function wasWriter (obj) {
     return obj.firstName + ' ' + obj.lastName + ' was a writer.';
   }
   else {
-    return obj.firstName + obj.lastName + ' was not a writer.';
+    return obj.firstName + ' ' + obj.lastName + ' was not a writer.';
 
   }
   // in an if/else statement
@@ -141,8 +141,8 @@ function stringIterator (aString, aNumber) {
   for (var i= 0; 
     i < stringIterator; i+4) {
     let 
-        aString = 'string';
-    aNumber = Number.isInteger;
+        aString = String;
+        aNumber = Number.isInteger;
   
   }
 
