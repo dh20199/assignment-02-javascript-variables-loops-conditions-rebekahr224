@@ -117,10 +117,10 @@ function splitArray (thisArray) {
  */
 function subtract(number1, number2) {
   // subtract number2 from number1, and return the result.
-  let a = number1 (1, 50),
-  b = number2(1, 50),
-  c = a-b;
-  return c;
+  let a = number1, 
+  b = number2;
+  let output = (a - b);
+  return output;
   
 }
 
