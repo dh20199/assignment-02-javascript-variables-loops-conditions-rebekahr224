@@ -118,7 +118,7 @@ function splitArray (thisArray) {
 function subtract(number1, number2) {
   // subtract number2 from number1, and return the result.
   let a = number1, 
-  b = number2;
+      b = number2;
   let output = (a - b);
   return output;
   
@@ -165,7 +165,7 @@ function typeTester (unknown) {
   else if (typeof(unknown) === 'number') {
     return unknown * unknown;
   } 
-  else if(unknown === null) {
+  else if(typeof(unknown) === 'object') {
     return 'sorry, I can\'t do anything with a null value.';
   }
   else{

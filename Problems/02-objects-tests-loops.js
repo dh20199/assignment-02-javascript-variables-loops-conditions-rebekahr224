@@ -20,12 +20,20 @@
  * @returns {object} should have the properties FIRSTNAME, LASTNAME, and PROFESSION
  */
 function returnObject (first, last, prof) {
+  var o = {};
+  o.firstName = first;
+  o.lastName = last;
+  o.profession =prof;
+  let output = (o.firstName, o.lastName, o.profession);
+
+  return output;
   // it might be easiest here to declare a variable
   // var o = {};
   // and then add properties to it one by one
   // o.firstName = first
   // etc.
   // don't forget to return the object
+
 }
 
 
@@ -56,13 +64,15 @@ function returnObject (first, last, prof) {
  * @returns {string} a sentence constructed from the object parameters 
  */
 function objectToSentence (obj) {
+  let object = obj.firstName + obj.lastName + ' was a ' + obj.profession;
+
   // remember you can refer to object properties using either of 2 methods
   // obj['propertyname']
   // or
   // obj.propertyname
   // note the quotes in the first options
   // also note: you need to change this next line!!
-  return 'RETURNVALUE';
+  return object;
 }
 
 
@@ -93,6 +103,14 @@ function objectToSentence (obj) {
  * @returns {string} a sentence constructed from the object parameters
  */
 function wasWriter (obj) {
+  obj.profession;
+  if (obj.profession === 'novelist') {
+    return obj.firstName + obj.lastName + ' was a writer.';
+  }
+  else {
+    return obj.firstName + obj.lastName + ' was not a writer.';
+
+  }
   // in an if/else statement
   // it is acceptable to put the
   // "return" statement inside the conditional braces
@@ -118,6 +136,17 @@ function wasWriter (obj) {
 function stringIterator (aString, aNumber) {
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
+  
+  for (var i= 0; 
+    i < stringIterator; i++) {
+    let 
+        aString = 'string';
+    aNumber = Number.isInteger;
+  
+  }
+
+   
+  return (aString, aNumber);
 }
 
 
