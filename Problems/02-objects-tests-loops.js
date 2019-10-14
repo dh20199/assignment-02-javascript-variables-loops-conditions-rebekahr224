@@ -20,13 +20,14 @@
  * @returns {object} should have the properties FIRSTNAME, LASTNAME, and PROFESSION
  */
 function returnObject (first, last, prof) {
-  var o = {};
-  o.firstName = first;
-  o.lastName = last;
-  o.profession =prof;
-  let output = (o.firstName, o.lastName, o.profession);
+  var o = {
+    firstName : first,
+    lastName : last,
+    profession : prof,
+  };
+  let object = (first, last, prof);
 
-  return output;
+  return object;
   // it might be easiest here to declare a variable
   // var o = {};
   // and then add properties to it one by one
@@ -64,7 +65,7 @@ function returnObject (first, last, prof) {
  * @returns {string} a sentence constructed from the object parameters 
  */
 function objectToSentence (obj) {
-  let object = obj.firstName + obj.lastName + ' was a ' + obj.profession;
+  let object = obj.firstName + obj.lastName + ' was a ' + obj.profession + '.' ;
 
   // remember you can refer to object properties using either of 2 methods
   // obj['propertyname']
@@ -105,7 +106,7 @@ function objectToSentence (obj) {
 function wasWriter (obj) {
   obj.profession;
   if (obj.profession === 'novelist') {
-    return obj.firstName + obj.lastName + ' was a writer.';
+    return obj.firstName + ' ' + obj.lastName + ' was a writer.';
   }
   else {
     return obj.firstName + obj.lastName + ' was not a writer.';
@@ -138,7 +139,7 @@ function stringIterator (aString, aNumber) {
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
   
   for (var i= 0; 
-    i < stringIterator; i++) {
+    i < stringIterator; i+4) {
     let 
         aString = 'string';
     aNumber = Number.isInteger;
