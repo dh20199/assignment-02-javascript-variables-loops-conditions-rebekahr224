@@ -25,9 +25,8 @@ function returnObject (first, last, prof) {
     lastName : last,
     profession : prof,
   };
-  let object = (first, last, prof);
 
-  return object;
+  return o;
   // it might be easiest here to declare a variable
   // var o = {};
   // and then add properties to it one by one
