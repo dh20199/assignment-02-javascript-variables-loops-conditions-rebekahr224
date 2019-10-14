@@ -165,7 +165,7 @@ function typeTester (unknown) {
     return Number * Number;
   }
   else if (unknown === null) { 
-    return 'sorry, I can\'t do anything with a null value.';
+    return 'Sorry, I can\'t do anything with an undefined value.';
 
   } 
   else {
