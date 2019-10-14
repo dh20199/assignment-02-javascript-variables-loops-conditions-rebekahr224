@@ -158,10 +158,10 @@ function carefulSubtract (first, second) {
 function typeTester (unknown) {
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
-  if (typeof(unknown) === String) {
+  if (unknown === String) {
     return String + ' yay!';
   } 
-  else if (typeof(unknown) === Number) {
+  else if (unknown === Number) {
     return Number * Number;
   }
   else if (unknown === null) { 
