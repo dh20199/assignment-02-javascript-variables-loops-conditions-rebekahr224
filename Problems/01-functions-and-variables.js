@@ -165,7 +165,7 @@ function typeTester (unknown) {
    return 'sorry, I can\'t do anything with a null value.';
   }
   else if(typeof(unknown) === 'string') {
-  return unknown + ' yay!';
+  return unknown + 'yay!';
 }
   else{
   return 'I don\'t know how to use that kind of variable.';
