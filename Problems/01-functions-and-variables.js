@@ -38,9 +38,9 @@ function hello (hello) {
 }
 
 
-  // if you want you can declare a string variable first
-  // or in this case you can just return the string directly
-  // with something like "return 'Hello!'"
+// if you want you can declare a string variable first
+// or in this case you can just return the string directly
+// with something like "return 'Hello!'"
 
 
 // Problem 2
@@ -75,9 +75,9 @@ function greeting(name) {
  * @returns {array} 
  */
 function returnArray (first, second, third) {
-  let array = ['Tim', 'Horton', 'Donuts'];
-    
+  let array = [ first, second, third ];
   return array;
+
   
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
@@ -101,8 +101,10 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-
+  return thisArray[0] + ' ' + thisArray[1] + ' was a ' + thisArray[2] + ' . ';
+  
 }
+
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
@@ -115,6 +117,8 @@ function splitArray (thisArray) {
  */
 function subtract(number1, number2) {
   // subtract number2 from number1, and return the result.
+
+
 }
 
 
