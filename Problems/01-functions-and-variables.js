@@ -168,7 +168,7 @@ function typeTester (unknown) {
   else if(typeof(unknown) === 'object') {
     return 'sorry, I can\'t do anything with a null value.';
   }
-  else{
+  else (unknown === undefined) {
     return 'I don\'t know how to use that kind of variable.';
   }
     
