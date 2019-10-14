@@ -101,8 +101,8 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-  return thisArray[0] + ' ' + thisArray[1] + ' was a ' + thisArray[2] + ' . ';
-  
+  return thisArray[0] + ' ' + thisArray[1] + ' was a' + thisArray[2];
+
 }
 
 
