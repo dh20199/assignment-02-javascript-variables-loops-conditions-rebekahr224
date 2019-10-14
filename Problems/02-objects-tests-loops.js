@@ -136,16 +136,13 @@ function wasWriter (obj) {
 function stringIterator (aString, aNumber) {
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
-  let
-      a = aString, 
-      b = aNumber;
 
-  for (var i = 0; i< stringIterator; i++)
+  for (var i = 0; i < stringIterator; i++)
   {
-    a, b;
+    stringIterator.repeat(aString,aNumber);
   }
  
-  return (a, b);
+  return (aString,aNumber);
   
 }
 
