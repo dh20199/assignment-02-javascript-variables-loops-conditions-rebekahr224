@@ -286,7 +286,7 @@ function sentences(list) {
   let h ='';
   for (let index = 0; index < list.length; index++) {
     const element = list[index];
-    h = h + computeReign(list)[index] + '\n';
+    h = h + computeReign(list[index]) + '\n';
   }
   return h;
 }
