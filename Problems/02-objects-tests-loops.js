@@ -137,13 +137,15 @@ function stringIterator (aString, aNumber) {
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
 
+  let 
+    s = '';
   
-  for (var i = 0; i < stringIterator; i++)
+  for (var i = 0; i < aNumber; i++)
   {
-    stringIterator.repeat(aNumber);
+    s = s + aString;
   }
  
-  return (aString,aNumber);
+  return s;
   
 }
 
