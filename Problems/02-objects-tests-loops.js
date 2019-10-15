@@ -217,7 +217,7 @@ function prettyIterator (aString, aNumber) {
  * @returns {string} 
  */
 function computeReign (pm) {
-  var p = pm.toparty - pm.from; 
+  var p = (pm.from - pm.toparty); 
   var r = pm.fullName + '\'s' + ' reign was ' + p.toString() + ' ' + 'years long.';
   return r;
 
