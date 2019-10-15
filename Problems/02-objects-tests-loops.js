@@ -142,6 +142,7 @@ function stringIterator (aString, aNumber) {
   
   for (var i = 0; i < aNumber; i++)
   {
+    s.repeat(aNumber)
     s = s + aString;
   }
  
