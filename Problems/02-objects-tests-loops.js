@@ -137,9 +137,10 @@ function stringIterator (aString, aNumber) {
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
 
+  
   for (var i = 0; i < stringIterator; i++)
   {
-    stringIterator.repeat(aString,aNumber);
+    stringIterator.repeat(aNumber);
   }
  
   return (aString,aNumber);
@@ -168,6 +169,10 @@ function stringIterator (aString, aNumber) {
  */
 function prettyIterator (aString, aNumber) {
   // be sure to check your results on this one; it has a trick. maybe 2. 
+  for (let i = 0; i <aNumber; i++){
+    let theString = aString+ '\n';
+    return theString.repeat(aNumber)
+  }
 }
 
 
@@ -210,6 +215,13 @@ function prettyIterator (aString, aNumber) {
  * @returns {string} 
  */
 function computeReign (pm) {
+    var reignLength = {
+    (toparty - from)
+
+  }
+
+  let output = (toparty - from);
+  return computeReign (object) fullName + '\'s' + 'reign was' + (toparty - from)
   // declare a variable, setting it equal to the
   // length of reign. Now declare another variable,
   // and construct the desired sentence using the appropriate
