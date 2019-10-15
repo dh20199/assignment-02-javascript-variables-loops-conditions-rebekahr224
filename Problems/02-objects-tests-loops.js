@@ -217,20 +217,18 @@ function prettyIterator (aString, aNumber) {
  * @returns {string} 
  */
 function computeReign (pm) {
-  let a = pm.toparty,
-      b = pm.from;
-  let p = (b-a);
-  var r = pm.fullName + '\'s' + ' reign was ' + p + ' ' + 'years long.';
+  let p = (pm.toparty - pm.from).toString();
+  var r = pm.fullName + '\'s reign was ' + p + ' ' + 'years long.';
   return r;
 
 }
-
-  // declare a variable, setting it equal to the
-  // length of reign. Now declare another variable,
-  // and construct the desired sentence using the appropriate
-  // attributes and variables. remember that you may need to
-  // "escape" the ' with \'
-  // finally, makre sure you return the sentence as the value of the function
+console.log(computeReign('r'));
+// declare a variable, setting it equal to the
+// length of reign. Now declare another variable,
+// and construct the desired sentence using the appropriate
+// attributes and variables. remember that you may need to
+// "escape" the ' with \'
+// finally, makre sure you return the sentence as the value of the function
 
 
 
