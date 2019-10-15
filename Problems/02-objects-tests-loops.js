@@ -217,7 +217,7 @@ function prettyIterator (aString, aNumber) {
  * @returns {string} 
  */
 function computeReign (pm) {
-  let p = (pm.toparty - pm.from).toString();
+  let p = (pm.from - pm.toparty).toString();
   var r = pm.fullName + '\'s reign was ' + p + ' ' + 'years long.';
   return r;
 
@@ -282,7 +282,14 @@ function sentences(list) {
   // is to use the "for...of" loop syntax to loop through the array,
   // and the object[attribute] or object.attribute reference format to access
   // the internal components of the objects.
+  let h ='';
+  for (let index = 0; index < list.length; index++) {
+    const element = list[index];
+    h = h + computeReign(list)[index] + '\n';
+  }
+  return h;
 }
+
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
