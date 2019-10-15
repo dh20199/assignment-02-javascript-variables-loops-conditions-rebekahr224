@@ -223,7 +223,7 @@ function computeReign (pm) {
   return r;
 
 }
-console.log(computeReign('r'));
+
 // declare a variable, setting it equal to the
 // length of reign. Now declare another variable,
 // and construct the desired sentence using the appropriate
